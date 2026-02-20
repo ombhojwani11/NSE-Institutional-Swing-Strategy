@@ -72,7 +72,7 @@ Instead of relying on raw terminal outputs or basic CSVs, the pipeline utilizes 
 - Demonstrates strong Python + data engineering skills applied to trading
 
 ### 📁 Project Structure
-See folder layout above.
+See src folder above.
 
 ### 🛠️ Setup
 ```bash
