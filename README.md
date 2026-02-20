@@ -75,6 +75,11 @@ The repository is modularized to separate data pipelining, statistical engines, 
 * `src/strategy_engine.py`: Contains the vectorized rolling statistics and Z-score mathematics.
 * `src/report_generator.py`: Manages the XlsxWriter dashboard creation and automated charting.
 
+### 🔗 Related Project
+**Audited Real-Money Intraday Trading Performance**  
+→ [trading_report](https://github.com/ombhojwani11/trading_report)  
+(₹1.20L realized profit | 2,409 trades | Max drawdown 3.3% | Fully reproducible audit)
+
 ## 🛠️ Setup & Execution
 > **Note:** Because the core proprietary multipliers and algorithmic entry criteria have been redacted from `strategy_engine.py`, this repository serves as an architectural template and will not execute trades or generate the full dashboards out-of-the-box. 
 
@@ -84,3 +89,4 @@ To view the dependency structure or run the base data pipeline framework locally
 git clone https://github.com/ombhojwani11/NSE-Institutional-Swing-Strategy.git
 cd NSE-Institutional-Swing-Strategy
 pip install -r requirements.txt
+
