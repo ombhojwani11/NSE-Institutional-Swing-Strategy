@@ -76,8 +76,7 @@ The repository is modularized to separate data pipelining, statistical engines, 
 * `src/report_generator.py`: Manages the XlsxWriter dashboard creation and automated charting.
 
 ## 🔗 Related Project
-**Audited Real-Money Intraday Trading Performance**  
-→ [trading_report](https://github.com/ombhojwani11/trading_report)  
+**Audited Real-Money Intraday Trading Performance** → [trading_report](https://github.com/ombhojwani11/trading_report)  
 (₹1.20L realized profit | 2,409 trades | Max drawdown 3.3% | Fully reproducible audit)
 
 ## 📬 Let's Connect
