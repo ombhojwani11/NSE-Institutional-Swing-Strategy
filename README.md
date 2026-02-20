@@ -63,7 +63,7 @@ Instead of relying on raw terminal outputs or basic CSVs, the pipeline utilizes 
 * **System & File Management:** `os`, `zipfile`, `datetime`, `re`
 * **Automated Reporting:** `xlsxwriter`
   
-### 🚀 Why this stands out
+## 🚀 Why this stands out
 - Fully reproducible & auditable pipeline  
 - Handles real institutional data flows (delivery + F&O)  
 - Professional-grade reporting that looks like a quant desk tool  
@@ -75,7 +75,7 @@ The repository is modularized to separate data pipelining, statistical engines, 
 * `src/strategy_engine.py`: Contains the vectorized rolling statistics and Z-score mathematics.
 * `src/report_generator.py`: Manages the XlsxWriter dashboard creation and automated charting.
 
-### 🔗 Related Project
+## 🔗 Related Project
 **Audited Real-Money Intraday Trading Performance**  
 → [trading_report](https://github.com/ombhojwani11/trading_report)  
 (₹1.20L realized profit | 2,409 trades | Max drawdown 3.3% | Fully reproducible audit)
