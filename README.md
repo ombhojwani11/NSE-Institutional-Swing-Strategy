@@ -80,6 +80,11 @@ The repository is modularized to separate data pipelining, statistical engines, 
 → [trading_report](https://github.com/ombhojwani11/trading_report)  
 (₹1.20L realized profit | 2,409 trades | Max drawdown 3.3% | Fully reproducible audit)
 
+## 📬 Let's Connect
+I’m constantly looking to learn, build, and collaborate with like-minded people. 
+* **LinkedIn:** Om Bhojwani (https://www.linkedin.com/in/om-bhojwani-92433b27b/)
+* **Email:** ombhojwani11@gmail.com
+
 ## 🛠️ Setup & Execution
 > **Note:** Because the core proprietary multipliers and algorithmic entry criteria have been redacted from `strategy_engine.py`, this repository serves as an architectural template and will not execute trades or generate the full dashboards out-of-the-box. 
 
