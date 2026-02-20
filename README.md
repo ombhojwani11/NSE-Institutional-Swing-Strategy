@@ -7,7 +7,7 @@
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![XlsxWriter](https://img.shields.io/badge/Excel%20Automation-21759B?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 
-**⚠️ Confidentiality Notice:** To protect trading logic, signal parameters, and custom statistical models (the "Alpha"), the code has been structurally redacted. 
+**⚠️ Confidentiality Notice:** To protect trading logic, signal parameters, and custom statistical models, the code has been structurally redacted. 
 
 ## 📌 Executive Summary
 This project automates the end-to-end ingestion, cleaning, and analysis of raw, daily exchange data. It processes gigabytes of historical and daily tick/EOD data through custom mathematical models to filter out market noise and identify statistically significant market behavior. The final output is a completely automated, dynamic Excel dashboard used to streamline daily research and positional trading decisions.
