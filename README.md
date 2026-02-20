@@ -40,24 +40,21 @@ Instead of relying on raw terminal outputs or basic CSVs, the pipeline utilizes 
 
 ## 📈 Sample Output Dashboards
 
-### Executive Summary Aggregation
-*Automatically categorizes signals by quality and instrument type, allowing for rapid visual triage of market-wide institutional flow.*
+### Executive Summary Dashboards
 
-**Strategy S Summary:**
-![Strategy S Summary](outputs/summary%20(Strategy%20S).png)
+<p align="center">
+  <strong>Strategy S Summary</strong><br>
+  <img src="outputs/summary_strategy_S.png" width="48%" alt="Strategy S Executive Summary">
+  <img src="outputs/summary_strategy_X.png" width="48%" alt="Strategy X Executive Summary">
+</p>
 
-**Strategy X Summary:**
-![Strategy X Summary](outputs/summary%20(Strategy%20X).png)
+### Symbol-Level Deep Dives
 
-
-### Symbol Deep-Dives
-*Generates localized, dynamic heatmaps to track statistical deviation alongside automated VWAP vs. Price charting for precise entry validation.*
-
-**Strategy S Signal:**
-![Strategy S Signal](outputs/signal(Strategy%20S).png)
-
-**Strategy X Signal:**
-![Strategy X Signal](outputs/signal%20(Strategy%20X).png)
+<p align="center">
+  <strong>Strategy S Signal Sheet</strong><br>
+  <img src="outputs/signal_strategy_S.png" width="48%" alt="Strategy S Deep Dive">
+  <img src="outputs/signal_strategy_X.png" width="48%" alt="Strategy X Deep Dive">
+</p>
 
 ## 💻 Technology Stack
 * **Language:** Python
