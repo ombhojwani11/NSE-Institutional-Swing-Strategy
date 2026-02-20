@@ -38,23 +38,25 @@ Instead of relying on raw terminal outputs or basic CSVs, the pipeline utilizes 
 * **Conditional Formatting Heatmaps:** Generates dynamic, color-coded matrices for instant visual triage of complex statistical outputs.
 * **Automated Data Visualization:** Programmatically injects localized line charts directly alongside the data tables to map price action against signal generation points.
 
-## 📈 Sample Output Dashboards
+## 📊 Sample Output Dashboards
 
 ### Executive Summary Dashboards
 
 <p align="center">
-  <strong>Strategy S Summary</strong><br>
-  <img src="outputs/summary_strategy_S.png" width="48%" alt="Strategy S Executive Summary">
-  <img src="outputs/summary_strategy_X.png" width="48%" alt="Strategy X Executive Summary">
+  <strong>Strategy S & X— Executive Summary</strong><br>
+  <img src="outputs/summary_strategy_S.png" width="49%" alt="Strategy S Executive Summary Dashboard">
+  <img src="outputs/summary_strategy_X.png" width="49%" alt="Strategy X Executive Summary Dashboard">
 </p>
 
 ### Symbol-Level Deep Dives
 
 <p align="center">
-  <strong>Strategy S Signal Sheet</strong><br>
-  <img src="outputs/signal_strategy_S.png" width="48%" alt="Strategy S Deep Dive">
-  <img src="outputs/signal_strategy_X.png" width="48%" alt="Strategy X Deep Dive">
+  <strong>Strategy S & X — Signal Sheet</strong><br>
+  <img src="outputs/signal_strategy_S.png" width="49%" alt="Strategy S Individual Symbol Deep Dive">
+  <img src="outputs/signal_strategy_X.png" width="49%" alt="Strategy X Individual Symbol Deep Dive">
 </p>
+
+*Clean, professional Excel reports with conditional formatting, embedded charts, Z-score highlights, and category coloring.*
 
 ## 💻 Technology Stack
 * **Language:** Python
