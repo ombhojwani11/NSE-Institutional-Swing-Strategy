@@ -71,11 +71,18 @@ Instead of relying on raw terminal outputs or basic CSVs, the pipeline utilizes 
 - Professional-grade reporting that looks like a quant desk tool  
 - Demonstrates strong Python + data engineering skills applied to trading
 
-### 📁 Project Structure
-See src folder above.
+## 📁 Project Structure
+The repository is modularized to separate data pipelining, statistical engines, and reporting:
+* `src/data_pipeline.py`: Handles ZIP/CSV extraction, cleaning, and VWAP calculations.
+* `src/strategy_engine.py`: Contains the vectorized rolling statistics and Z-score mathematics.
+* `src/report_generator.py`: Manages the XlsxWriter dashboard creation and automated charting.
 
-### 🛠️ Setup
+## 🛠️ Setup & Execution
+> **Note:** Because the core proprietary multipliers and algorithmic entry criteria have been redacted from `strategy_engine.py`, this repository serves as an architectural template and will not execute trades or generate the full dashboards out-of-the-box. 
+
+To view the dependency structure or run the base data pipeline framework locally:
+
 ```bash
-git clone https://github.com/YOURUSERNAME/NSE-Institutional-Swing-Strategy.git
+git clone [https://github.com/YOURUSERNAME/NSE-Institutional-Swing-Strategy.git](https://github.com/YOURUSERNAME/NSE-Institutional-Swing-Strategy.git)
 cd NSE-Institutional-Swing-Strategy
 pip install -r requirements.txt
