@@ -43,20 +43,20 @@ Instead of relying on raw terminal outputs or basic CSVs, the pipeline utilizes 
 ### Executive Summary Aggregation
 *Automatically categorizes signals by quality and instrument type, allowing for rapid visual triage of market-wide institutional flow.*
 
-**Strategy S (Event-Driven Detection) Summary:**
+**Strategy S Summary:**
 ![Strategy S Summary](outputs/summary%20(Strategy%20S).png)
 
-**Strategy X (Sustained Flow Tracking) Summary:**
+**Strategy X Summary:**
 ![Strategy X Summary](outputs/summary%20(Strategy%20X).png)
 
 
-### Symbol Deep-Dives & Heatmaps
+### Symbol Deep-Dives
 *Generates localized, dynamic heatmaps to track statistical deviation alongside automated VWAP vs. Price charting for precise entry validation.*
 
-**Strategy S Signal Deep-Dive:**
+**Strategy S Signal:**
 ![Strategy S Signal](outputs/signal(Strategy%20S).png)
 
-**Strategy X Signal Deep-Dive:**
+**Strategy X Signal:**
 ![Strategy X Signal](outputs/signal%20(Strategy%20X).png)
 
 ## 💻 Technology Stack
