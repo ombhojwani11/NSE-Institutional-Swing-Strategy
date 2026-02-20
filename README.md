@@ -83,6 +83,6 @@ The repository is modularized to separate data pipelining, statistical engines, 
 To view the dependency structure or run the base data pipeline framework locally:
 
 ```bash
-git clone [https://github.com/YOURUSERNAME/NSE-Institutional-Swing-Strategy.git](https://github.com/YOURUSERNAME/NSE-Institutional-Swing-Strategy.git)
+git clone https://github.com/ombhojwani11/NSE-Institutional-Swing-Strategy.git
 cd NSE-Institutional-Swing-Strategy
 pip install -r requirements.txt
