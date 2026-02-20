@@ -16,12 +16,12 @@ This project automates the end-to-end ingestion, cleaning, and analysis of raw, 
 
 The system operates on two distinct, proprietary detection models designed to capture different profiles of market participant behavior across the derivatives segment:
 
-### 1. Model S (Event-Driven Detection)
+### 1. Strategy S (Event-Driven Detection)
 * **Objective:** Identifies isolated, statistically significant anomalies in market participation.
 * **Mechanism:** Processes delivery metrics, futures Open Interest (OI), and options pricing across multiple expiries.
 * **Engineering Focus:** Built to dynamically handle missing datasets, calculate custom Volume Weighted Average Prices (VWAP) on the fly, and execute complex cross-instrument data merges without pipeline failure.
 
-### 2. Model X (Sustained Flow Tracking)
+### 2. Strategy X (Sustained Flow Tracking)
 * **Objective:** Detects continuous, multi-day shifts in market structure.
 * **Mechanism:** Utilizes custom-built rolling statistical windows and volatility-adjusted thresholds to identify sustained deviations from historical norms.
 * **Engineering Focus:** Heavily utilizes vectorized `pandas` and `numpy` operations to calculate advanced statistical metrics across large datasets efficiently, actively filtering out expiry-week volatility and zero-volume anomalies.
