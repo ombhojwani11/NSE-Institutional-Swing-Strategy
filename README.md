@@ -38,23 +38,38 @@ Instead of relying on raw terminal outputs or basic CSVs, the pipeline utilizes 
 * **Conditional Formatting Heatmaps:** Generates dynamic, color-coded matrices for instant visual triage of complex statistical outputs.
 * **Automated Data Visualization:** Programmatically injects localized line charts directly alongside the data tables to map price action against signal generation points.
 
+## 📈 Sample Output Dashboards
+
+### Executive Summary Aggregation
+*Automatically categorizes signals by quality and instrument type, allowing for rapid visual triage of market-wide institutional flow.*
+
+**Model S (Event-Driven Detection) Summary:**
+![Strategy S Summary](outputs/summary%20(Strategy%20S).png)
+
+**Model X (Sustained Flow Tracking) Summary:**
+![Strategy X Summary](outputs/summary%20(Strategy%20X).png)
+
+
+### Symbol Deep-Dives & Heatmaps
+*Generates localized, dynamic heatmaps to track statistical deviation alongside automated VWAP vs. Price charting for precise entry validation.*
+
+**Model S Signal Deep-Dive:**
+![Strategy S Signal](outputs/signal(Strategy%20S).png)
+
+**Model X Signal Deep-Dive:**
+![Strategy X Signal](outputs/signal%20(Strategy%20X).png)
+
 ## 💻 Technology Stack
 * **Language:** Python
 * **Data Processing & Math:** `pandas`, `numpy`
 * **System & File Management:** `os`, `zipfile`, `datetime`, `re`
 * **Automated Reporting:** `xlsxwriter`
-* 
-### 📊 Sample Output
-(Images in `/outputs` folder)
-
-**Executive Summary Dashboard** | **Individual Symbol Deep-Dive Sheets** | **Z-Score Visuals**
-
+  
 ### 🚀 Why this stands out
 - Fully reproducible & auditable pipeline  
 - Handles real institutional data flows (delivery + F&O)  
 - Professional-grade reporting that looks like a quant desk tool  
 - Demonstrates strong Python + data engineering skills applied to trading
-
 
 ### 📁 Project Structure
 See folder layout above.
