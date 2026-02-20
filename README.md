@@ -1,6 +1,6 @@
 # NSE Institutional Swing Strategy
 
-**AI-Assisted Full-Stack Swing Trading System for NSE F&O**  
+**Full-Stack Swing Trading System for NSE F&O**  
 *Detecting institutional footprints using delivery, futures & options data*
 
 ![Python](https://img.shields.io/badge/Python-3775A8?style=for-the-badge&logo=python&logoColor=white)
